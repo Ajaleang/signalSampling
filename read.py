@@ -2,7 +2,7 @@ import pyaudio
 import wave
 
 # Abre el archivo de audio
-audio_file = wave.open('C:\\Users\\arman\\Documents\\Repositorios\\Down-upSampling\\audio_upsampled.wav','rb')
+audio_file = wave.open('C:\\Users\\arman\\Documents\\Repositorios\\Down-upSampling\\signal.wav','rb')
 
 # Configura PyAudio
 p = pyaudio.PyAudio()
